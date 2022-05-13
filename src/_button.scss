@@ -1,0 +1,74 @@
+@import "variables";
+
+button {
+  border: none;
+  border-radius: 6px;
+  width: 4rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.long {
+    width: 5.5rem;
+  }
+  &.sm {
+    width: 3.5rem;
+    height: 1.75rem;
+  }
+  &.lg {
+    width: 4.5rem;
+    height: 2.25rem;
+  }
+
+  &.outline {
+    background: none;
+    border: 1px solid $blue-2;
+    color: $blue-2;
+
+    &:hover {background: $blue-2-lite;}
+  }
+  &.text {
+    background: none;
+    color: $blue-2;
+
+    &:hover {background: $blue-2-lite;}
+  }
+  &.disabled {
+    color: #828282;
+
+    &:hover {cursor: not-allowed}
+  }
+  &.disableShadow,
+  &.icon {
+    color: white;
+    background: $blue-2;
+  }
+
+  &.default {
+    color: #3f3f3f;
+    background: #e0e0e0;
+
+    &:hover {background: #aeaeae}
+  }
+  &.primary {
+    color: white;
+    background: $blue-2;
+
+    &:hover {background: #0039cb}
+  }
+  &.secondary {
+    color: white;
+    background: #455a64;
+
+    &:hover {background: #1c313a;}
+  }
+  &.danger {
+    color: white;
+    background: #d32f2f;
+
+    &:hover {background: #9a0007;}
+  }
+}
+
+.material-icons {font-size: 16px;}

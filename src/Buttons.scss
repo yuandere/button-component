@@ -1,0 +1,30 @@
+@import 'variables';
+@import 'button';
+
+#undefined-hover {
+  background: #bdbdbd;
+}
+
+#undefined-hover:active {
+  background: #828282;
+}
+
+#outline-hover {
+  background: $blue-2-lite;
+}
+
+#text-hover {
+  background: $blue-2-lite;
+}
+
+#primary-hover {
+  background: #0039cb;
+}
+
+#secondary-hover {
+  background: #1c313a;
+}
+
+#danger-hover {
+  background: #9a0007;
+}
