@@ -41,7 +41,11 @@ function App() {
         <div className="type">
           <div>
             <p className="name">&lt;Button disableShadow /&gt;</p>
-            <Buttons disableShadow></Buttons>
+            <Buttons color="secondary" disableShadow></Buttons>
+          </div>
+          <div>
+            <p className="name">&lt;Button shadow /&gt;</p>
+            <Buttons color="secondary" shadow></Buttons>
           </div>
         </div>
         <div className="type">
@@ -61,13 +65,13 @@ function App() {
             <p className="name">
               &lt;Button starticon=&quot;local_grocery_store&quot; /&gt;
             </p>
-            <Buttons startIcon="add_shopping_cart"></Buttons>
+            <Buttons startIcon="add_shopping_cart" color="primary"></Buttons>
           </div>
           <div>
             <p className="name">
               &lt;Button endicon=&quot;local_grocery_store&quot; /&gt;
             </p>
-            <Buttons endIcon="add_shopping_cart"></Buttons>
+            <Buttons endIcon="add_shopping_cart" color="primary"></Buttons>
           </div>
         </div>
 
