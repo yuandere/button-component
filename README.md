@@ -26,7 +26,15 @@
 
 ![screenshot](./src/screenshot.png)
 
-This project features a button component made in React with display and color options configured with SASS. It was my first time building with either framework :) 
+This project features a button component made in React with multiple display states and color options, and SASS. It was my first time building with either framework :) 
+
+#### Features
+*Main button types: default, outline, text only 
+*Box-shadow, disabled styling: on or off 
+*Size: small, medium, large, long
+*Colors: default, primary, secondary, danger
+*Icons: inserted on the left/right side of button using material icons
+
 
 ### Built With
 
@@ -34,6 +42,7 @@ This project features a button component made in React with display and color op
 
 - [React](https://reactjs.org/)
 - [SASS](https://sass-lang.com/)
+- [Material Icons](https://fonts.google.com/icons?selected=Material+Icons)
 
 ## How To Use
 
