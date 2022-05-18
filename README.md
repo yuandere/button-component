@@ -26,7 +26,7 @@
 
 ![screenshot](./src/screenshot.png)
 
-This project features a button component made in React with multiple display states and color options, and SASS. It was my first time building with either framework :) 
+A button component made in React with multiple display states and color options using SASS. It was my first time building with either framework :) 
 
 ### Features
 - **Main button types**: default, outline, text only 
