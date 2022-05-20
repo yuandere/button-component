@@ -7,13 +7,6 @@
 
 # testing
 /coverage
-/src/components/Input.css
-/src/components/Input.css.map
-/src/App.test.js
-/src/reportWebVitals.js
-/src/setupTests.js
-/src/style.css
-/src/style.css.map
 
 # production
 /build
