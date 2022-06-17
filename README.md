@@ -26,7 +26,8 @@
 
 ![screenshot](./src/screenshot.png)
 
-A button component made in React with multiple display states and color options using SASS. It was my first time building with either framework :) 
+A button component made in React with multiple display states and color options using SASS. This was my first React project :)
+
 
 ### Features
 - **Main button types**: default, outline, text only 
@@ -60,6 +61,9 @@ $ npm install
 # Run the app
 $ npm start
 ```
+
+Then, import [Material Icons](https://fonts.google.com/icons?selected=Material+Icons) into your CSS and adjust styles to your preference in Buttons.scss.
+Make sure to use a [SASS compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass) and you're good to go.
 
 ## Acknowledgements
 
