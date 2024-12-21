@@ -71,7 +71,3 @@ Make sure to use a [SASS compiler](https://marketplace.visualstudio.com/items?it
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 
-## Contact
-
-- GitHub [@yuandere](https://{github.com/yuandere})
-- Discord [@al doub#7487](https://{discord.com})
